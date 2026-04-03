@@ -51,3 +51,4 @@ next-env.d.ts
 /prisma/dev.db-journal
 .env
 .claude/settings.local.json
+.playwright-mcp
