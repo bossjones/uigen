@@ -15,5 +15,8 @@
       "Bash(git commit:*)"
     ]
   },
-  "hooks": {}
+  "hooks": {},
+  "enabledPlugins": {
+    "langsmith-tracing@langsmith-claude-code-plugins": true
+  }
 }

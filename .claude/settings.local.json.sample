@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"\\\\.\\(ts|tsx\\)$\")",
+      "Bash(npm test:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(npx vitest:*)"
+    ]
+  },
+  
+  "env": {
+      "TRACE_TO_LANGSMITH": "true",
+      "CC_LANGSMITH_API_KEY": "<LangSmith API key>",
+      "CC_LANGSMITH_PROJECT": "my-project"
+    }
+  
+}
